@@ -5,21 +5,21 @@ import "aos/dist/aos.css";
 const projects = [
   {
     id: 1,
-    name: "Sprinkles",
+    name: "IChat",
     href: "#",
     imageSrc:
       "https://fastly.picsum.photos/id/23/3887/4899.jpg?hmac=2fo1Y0AgEkeL2juaEBqKPbnEKm_5Mp0M2nuaVERE6eE",
     used: "ReactJS, TailwindCSS",
-    description: "A restaurant website.",
+    description: "A Group chat application.",
   },
   {
     id: 2,
-    name: "Paper Bag",
+    name: "Wonder",
     href: "#",
     imageSrc:
       "https://fastly.picsum.photos/id/3/5000/3333.jpg?hmac=GDjZ2uNWE3V59PkdDaOzTOuV3tPWWxJSf4fNcxu4S2g",
     used: "ReactJS, TailwindCSS",
-    description: "An online shopping website.",
+    description: "Social media website.",
   },
   {
     id: 3,
