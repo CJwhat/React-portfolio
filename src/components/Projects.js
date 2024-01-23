@@ -23,7 +23,7 @@ const projects = [
   },
   {
     id: 3,
-    name: "My Blogs",
+    name: "Blogs",
     href: "#",
     imageSrc:
       "https://fastly.picsum.photos/id/447/1280/853.jpg?hmac=4DUUCOsHRIoYbNrPRYEUHOW7wCjM7TROrTrYFivtdPw",
