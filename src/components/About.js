@@ -11,17 +11,17 @@ import "aos/dist/aos.css";
 const features = [
   {
     name: "Age:",
-    description: "18 years old",
+    description: "25 years old",
     icon: CalendarIcon,
   },
   {
     name: "Email:",
-    description: "name@example.com",
+    description: "christajoshy890@gmail.com",
     icon: AtSymbolIcon,
   },
   {
     name: "Location:",
-    description: "India, Earth",
+    description: "Kerala, India",
     icon: MapPinIcon,
   },
 ];
@@ -65,10 +65,9 @@ export default function About() {
                   <t></t><p className="mt-1  text-sm"> 2021-Present</p>
                 </p>
                 <p className="mt-3 list-item list-inside">
-                  Vestibulum vitae augue sit amet ex laoreet euismod sed eu dui.
-                </p>
-                <p className="mt-3 list-item list-inside">
-                  Fusce et leo nec elit mollis sollicitudin.
+                INFox Technologies   
+                 <t></t> <p className="mt-2  text-sm">Intern</p>
+                  <t></t><p className="mt-1  text-sm"> 2019</p>
                 </p>
               </div>
               <div
@@ -83,13 +82,13 @@ export default function About() {
                   Education
                 </h2>
                 <p className="mt-3 list-item list-inside">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Rajagiri School of Engineering and Technology
                 </p>
                 <p className="mt-3 list-item list-inside">
-                  Vestibulum vitae augue sit amet ex laoreet euismod sed eu dui.
+                  Providence Girls Higher Secondary
                 </p>
                 <p className="mt-3 list-item list-inside">
-                  Fusce et leo nec elit mollis sollicitudin.
+                  St.Marys Catholic High School
                 </p>
               </div>
             </div>
