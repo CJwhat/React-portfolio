@@ -61,13 +61,13 @@ export default function About() {
                 </h2>
                 <p className="mt-3 list-item list-inside">
                   Cognizant Technology Solutions   
-                 <t></t> <p className="mt-2  text-sm">Software Engineer</p>
-                  <t></t><p className="mt-1  text-sm"> 2021-Present</p>
+                 <t></t> <p className="indent-6 list-item list-inside list-none">Software Engineer</p>
+                  <t></t><p className="indent-6 list-item list-inside list-none"> 2021-Present</p>
                 </p>
                 <p className="mt-3 list-item list-inside">
                 INFox Technologies   
-                 <t></t> <p className="mt-2  text-sm">Intern</p>
-                  <t></t><p className="mt-1  text-sm"> 2019</p>
+                 <t></t> <p className="indent-6 list-item list-inside list-none">Intern</p>
+                  <t></t><p className="indent-6 list-item list-inside list-none"> 2019</p>
                 </p>
               </div>
               <div

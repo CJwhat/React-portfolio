@@ -5,40 +5,31 @@ import "aos/dist/aos.css";
 const projects = [
   {
     id: 1,
-    name: "IChat",
-    href: "#",
+    name: "MovieFlix",
+    href: "https://movie-flix-pi.vercel.app/",
     imageSrc:
-      "https://fastly.picsum.photos/id/23/3887/4899.jpg?hmac=2fo1Y0AgEkeL2juaEBqKPbnEKm_5Mp0M2nuaVERE6eE",
-    used: "ReactJS, TailwindCSS",
-    description: "A Group chat application.",
+      "https://fastly.picsum.photos/id/861/5000/3333.jpg?hmac=gtGlGlhgov_p1Qv5alPB5qMx2Oen2YHFiMft8S_Znfs",
+    used: "ReactJS, Vite",
+    description: "An Extensive Movie DB.",
   },
   {
     id: 2,
-    name: "Wonder",
-    href: "#",
+    name: "Lets Chat",
+    href: "https://lets-chat-main.vercel.app/",
     imageSrc:
-      "https://fastly.picsum.photos/id/3/5000/3333.jpg?hmac=GDjZ2uNWE3V59PkdDaOzTOuV3tPWWxJSf4fNcxu4S2g",
+      "https://fastly.picsum.photos/id/504/5000/3333.jpg?hmac=tciW_3YQNlNNRCEM360bpaoyliNKAZ4aioVTTNLmTZk",
     used: "ReactJS, TailwindCSS",
-    description: "Social media website.",
+    description: "Real time chat app",
   },
   {
     id: 3,
-    name: "Blogs",
-    href: "#",
+    name: "WeatherAPP",
+    href: "https://remarkable-gumdrop-bfc80a.netlify.app/",
     imageSrc:
-      "https://fastly.picsum.photos/id/447/1280/853.jpg?hmac=4DUUCOsHRIoYbNrPRYEUHOW7wCjM7TROrTrYFivtdPw",
+      "https://fastly.picsum.photos/id/110/5000/3333.jpg?hmac=AvUBrnXG4ebvrtC08T95vEzD1I9SryZ8KSQ4iJ9tb9s",
 
     used: "ReactJS, TailwindCSS",
-    description: "A personal blogging website.",
-  },
-  {
-    id: 4,
-    name: "Canopy",
-    href: "#",
-    imageSrc:
-      "https://fastly.picsum.photos/id/366/4000/3000.jpg?hmac=zphhHOH9ofToN2jNHd8z-nc98NrBd8y2okWXEXetLDg",
-    used: "ReactJS, TailwindCSS",
-    description: "An online educational website.",
+    description: "Real-time Weather information "
   },
 ];
 
@@ -48,12 +39,12 @@ export default function Projects() {
   }, []);
   return (
     <div id="projects">
-      <div className="mx-auto max-w-2xl px-6 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">
+      <div className="-auto max-w-2xl px-6 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">
         <h2 className="text-lg leading-7">Browse my recent</h2>
         <p className="mt-2 text-4xl font-bold tracking-tight sm:text-6xl">
           Projects
         </p>
-        <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+        <div className="mt-10 grid grid-cols-3 gap-x-6 gap-y-10 sm:grid-cols-3 lg:grid-cols-3 xl:gap-x-8 flex justify-between ">
           {projects.map((project) => (
             <div
               key={project.id}
@@ -82,9 +73,7 @@ export default function Projects() {
             </div>
           ))}
         </div>
-        <div className="mt-16 flex justify-center">
-          <button className="btn btn-outline">View More</button>
-        </div>
+        
       </div>
     </div>
   );

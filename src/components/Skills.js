@@ -20,7 +20,7 @@ const frontend = [
     icon: CheckCircleIcon,
   },
   {
-    name: "Next.js",
+    name: "Bootstrap",
     value: 60,
     icon: CheckCircleIcon,
   },
@@ -33,12 +33,12 @@ const frontend = [
 const backend = [
   {
     name: "NodeJS",
-    value: 30,
+    value: 45,
     icon: CheckCircleIcon,
   },
   {
-    name: "Python",
-    value: 75,
+    name: "Java",
+    value: 30,
     icon: CheckCircleIcon,
   },
   {
@@ -57,7 +57,7 @@ const backend = [
     icon: CheckCircleIcon,
   },
   {
-    name: "GraphQL",
+    name: "C#",
     value: 30,
     icon: CheckCircleIcon,
   },
